@@ -29,7 +29,7 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"***Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/Screenshots too.\n\n A Bot By : @AIOM_BOTS**",
+        f"**Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/Screenshots too.\n\n A Bot By : @AIOM_BOTS**",
         buttons=[
             [Button.inline("💬 HELP", data="ihelp")],
             [
@@ -48,7 +48,7 @@ async def help(event):
 
 async def ihelp(event):
     await event.edit(
-        "**A Quality CompressorBot\n\nThis Bot Compress Videos With Negligible Quality Change.\nGenerate Sample Compressed Video\nScreenshots Too\nEasy to Use\n Due to Quality Settings Bot Takes Time To Compress.\nSo Be Patience Nd Send Videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\n - @AIOM_BOTS -**",
+        "**A Quality CompressorBot\n\nThis Bot Compress Videos With Negligible Quality Change.\nGenerate Sample Compressed Video\nScreenshots Too\nEasy to Use\n Due to Quality Settings Bot Takes Time To Compress.\nSo Be Patience Nd Send Videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\n\n - @AIOM_BOTS -**",
         buttons=[Button.inline("⬅️ BACK", data="beck")],
     )
 
@@ -56,7 +56,7 @@ async def ihelp(event):
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"***Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/Screenshots too.\n\n A Bot By : @AIOM_BOTS**",
+        f"**Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/Screenshots too.\n\n A Bot By : @AIOM_BOTS**",
         buttons=[
             [Button.inline("💬 HELP", data="ihelp")],
             [
