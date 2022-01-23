@@ -65,6 +65,7 @@ class DownloadSender:
     remaining: int
     stride: int
 
+# hnzna
     def __init__(
         self,
         client: TelegramClient,
