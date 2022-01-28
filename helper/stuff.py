@@ -29,12 +29,12 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"**Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/Screenshots too.\n\n A Bot By : @AIOM_BOTS**",
+        f"**Hᴇʟʟᴏ 👋 , {ok.user.first_name}\n\nI Aᴍ A Cᴏᴍᴘʀᴇssᴏʀ Bᴏᴛ Wʜɪᴄʜ Cᴀɴ Eɴᴄᴏᴅᴇ Vɪᴅᴇᴏs.\n\nRᴇᴅᴜᴄᴇ Sɪᴢᴇ Oꜰ Vɪᴅᴇᴏs Wɪᴛʜ Nᴇɢʟɪɢɪʙʟᴇ Qᴜᴀʟɪᴛʏ Cʜᴀɴɢᴇ\n\nU Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇs/Sᴄʀᴇᴇɴsʜᴏᴛs Tᴏᴏ.\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : @AIOM_BOTS**",
         buttons=[
-            [Button.inline("💬 HELP", data="ihelp")],
+            [Button.inline("Hᴇʟᴘ", data="ihelp")],
             [
-                Button.url("🗣️ CHANNEL", url="t.me/AIOM_BOTS"),
-                Button.url("👥 GROUP", url="t.me/AIOM_BOTS_GROUP"),
+                Button.url("Cʜᴀɴɴᴇʟ", url="t.me/AIOM_BOTS"),
+                Button.url("Gʀᴏᴜᴘ", url="t.me/AIOM_BOTS_GROUP"),
             ],
         ],
     )
