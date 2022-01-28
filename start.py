@@ -10,7 +10,8 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
-#    License can be found in <https://github.com/1Danish-00/CompressorBot/blob/main/License> .
+#    License can be found in <https://github.com/1Danish-00/CompressorBot/blob/main/License>.
+#    hi
 
 
 from helper._get import *
