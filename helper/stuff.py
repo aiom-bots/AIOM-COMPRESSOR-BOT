@@ -42,26 +42,27 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "**A Quality CompressorBot\n\nThis Bot Compress Videos With Negligible Quality Change.\nGenerate Sample Compressed Video\nScreenshots Too\nEasy to Use\n Due to Quality Settings Bot Takes Time To Compress.\nSo Be Patience Nd Send Videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\n - @AIOM_BOTS -**",
+        "**A Qᴜᴀʟɪᴛʏ Cᴏᴍᴘʀᴇssᴏʀ Bᴏᴛ\n\nTʜɪs Bᴏᴛ Cᴏᴍᴘʀᴇss Vɪᴅᴇᴏs Wɪᴛʜ Nᴇɢʟɪɢɪʙʟᴇ Qᴜᴀʟɪᴛʏ Cʜᴀɴɢᴇ.\n\nGᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Cᴏᴍᴘʀᴇssᴇᴅ Vɪᴅᴇᴏ Sᴄʀᴇᴇɴsʜᴏᴛs Tᴏᴏ Eᴀsʏ Tᴏ Usᴇ\n\nDᴜᴇ Tᴏ Qᴜᴀʟɪᴛʏ Sᴇᴛᴛɪɴɢs Bᴏᴛ Tᴀᴋᴇs Tɪᴍᴇ Tᴏ Cᴏᴍᴘʀᴇss.Sᴏ Bᴇ Pᴀᴛɪᴇɴᴄᴇ Aɴᴅ Sᴇɴᴅ Vɪᴅᴇᴏs Oɴᴇ Bʏ Oɴᴇ Aꜰᴛᴇʀ Cᴏᴍᴘʟᴇᴛɪɴɢ.\n\nJᴜsᴛ Fᴏʀᴡᴀʀᴅ  A Vɪᴅᴇᴏ Tᴏ Gᴇᴛ Oᴘᴛɪᴏɴs\n\nDᴏɴᴛ Sᴘᴀᴍ.\n\nPᴏᴡᴇʀᴇᴅ Bʏ : @AIOM_BOTS**",
+        buttons=[Button.inline("Hᴏᴍᴇ", data="beck")],
      )
 
 
 async def ihelp(event):
     await event.edit(
-        "**A Quality CompressorBot\n\nThis Bot Compress Videos With Negligible Quality Change.\nGenerate Sample Compressed Video\nScreenshots Too\nEasy to Use\n Due to Quality Settings Bot Takes Time To Compress.\nSo Be Patience Nd Send Videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options\n\n - @AIOM_BOTS -**",
-        buttons=[Button.inline("⬅️ BACK", data="beck")],
+        "**A Qᴜᴀʟɪᴛʏ Cᴏᴍᴘʀᴇssᴏʀ Bᴏᴛ\n\nTʜɪs Bᴏᴛ Cᴏᴍᴘʀᴇss Vɪᴅᴇᴏs Wɪᴛʜ Nᴇɢʟɪɢɪʙʟᴇ Qᴜᴀʟɪᴛʏ Cʜᴀɴɢᴇ.\n\nGᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Cᴏᴍᴘʀᴇssᴇᴅ Vɪᴅᴇᴏ Sᴄʀᴇᴇɴsʜᴏᴛs Tᴏᴏ Eᴀsʏ Tᴏ Usᴇ\n\nDᴜᴇ Tᴏ Qᴜᴀʟɪᴛʏ Sᴇᴛᴛɪɴɢs Bᴏᴛ Tᴀᴋᴇs Tɪᴍᴇ Tᴏ Cᴏᴍᴘʀᴇss.Sᴏ Bᴇ Pᴀᴛɪᴇɴᴄᴇ Aɴᴅ Sᴇɴᴅ Vɪᴅᴇᴏs Oɴᴇ Bʏ Oɴᴇ Aꜰᴛᴇʀ Cᴏᴍᴘʟᴇᴛɪɴɢ.\n\nJᴜsᴛ Fᴏʀᴡᴀʀᴅ  A Vɪᴅᴇᴏ Tᴏ Gᴇᴛ Oᴘᴛɪᴏɴs\n\nDᴏɴᴛ Sᴘᴀᴍ.\n\nPᴏᴡᴇʀᴇᴅ Bʏ : @AIOM_BOTS**",
+        buttons=[Button.inline("Bᴀᴄᴋ", data="beck")],
     )
 
 
 async def beck(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.edit(
-        f"**Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/Screenshots too.\n\n A Bot By : @AIOM_BOTS**",
+        f"**Hᴇʟʟᴏ 👋 , {ok.user.first_name}\n\nI Aᴍ A Cᴏᴍᴘʀᴇssᴏʀ Bᴏᴛ Wʜɪᴄʜ Cᴀɴ Eɴᴄᴏᴅᴇ Vɪᴅᴇᴏs.\n\nRᴇᴅᴜᴄᴇ Sɪᴢᴇ Oꜰ Vɪᴅᴇᴏs Wɪᴛʜ Nᴇɢʟɪɢɪʙʟᴇ Qᴜᴀʟɪᴛʏ Cʜᴀɴɢᴇ\n\nU Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇs/Sᴄʀᴇᴇɴsʜᴏᴛs Tᴏᴏ.\n\nPᴏᴡᴇʀᴇᴅ ʙʏ : @AIOM_BOTS**",
         buttons=[
-            [Button.inline("💬 HELP", data="ihelp")],
+            [Button.inline("Hᴇʟᴘ", data="ihelp")],
             [
-                Button.url("🗣️ CHANNEL", url="t.me/AIOM_BOTS"),
-                Button.url("👥 GROUP", url="t.me/AIOM_BOTS_GROUP"),
+                Button.url("Cʜᴀɴɴᴇʟ", url="t.me/AIOM_BOTS"),
+                Button.url("Gʀᴏᴜᴘ", url="t.me/AIOM_BOTS_GROUP"),
             ],
         ],
     )
@@ -70,13 +71,13 @@ async def beck(event):
 async def sencc(e):
     key = e.pattern_match.group(1).decode("UTF-8")
     await e.edit(
-        "Choose Mode",
+        "**Sᴇʟᴇᴄᴛ A Dᴇsɪʀᴇᴅ Oᴘᴛɪᴏɴ**",
         buttons=[
             [
-                Button.inline("▪️ Default Compress", data=f"encc{key}"),
-                Button.inline("▫️ Custom Compress", data=f"ccom{key}"),
+                Button.inline("Dᴇꜰᴀᴜʟᴛ Cᴏᴍᴘʀᴇss", data=f"encc{key}"),
+                Button.inline("Cᴜsᴛᴏᴍ Cᴏᴍᴘʀᴇss", data=f"ccom{key}"),
             ],
-            [Button.inline("⬅️ Back", data=f"back{key}")],
+            [Button.inline("Bᴀᴄᴋ", data=f"back{key}")],
         ],
     )
 
@@ -84,13 +85,13 @@ async def sencc(e):
 async def back(e):
     key = e.pattern_match.group(1).decode("UTF-8")
     await e.edit(
-        "**What To Do**",
+        "**Sᴇʟᴇᴄᴛ A Dᴇsɪʀᴇᴅ Oᴘᴛɪᴏɴ**",
         buttons=[
             [
-                Button.inline("◽️ GENERATE SAMPLE", data=f"gsmpl{key}"),
-                Button.inline("◾️ SCREENSHOTS", data=f"sshot{key}"),
+                Button.inline("Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ", data=f"gsmpl{key}"),
+                Button.inline("SᴄʀᴇᴇɴSʜᴏᴛs", data=f"sshot{key}"),
             ],
-            [Button.inline("🔺 COMPRESS", data=f"sencc{key}")],
+            [Button.inline("Cᴏᴍᴘʀᴇss", data=f"sencc{key}")],
         ],
     )
 
