@@ -10,5 +10,21 @@
 - For now i set it for maximum 5 Processes at a time.
 - Its Running Without Db so Block /ban /Broadcast Feature is currently Not available.
 
+## > Variables
+
+> API_HASH - You're api hash, from my.telegram.org
+
+> APP_ID - You're api id, from my.telegram.org
+
+> BOT_TOKEN - Get bot token from [@BotFather](https://t.me/BotFather)
+
+> LOG_CHANNEL - log Channel id
+
+> OWNER_ID - You're telegram id
+
 ### Deploy To Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
+## Credits
+
