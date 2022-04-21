@@ -12,15 +12,15 @@
 
 ## > Variables
 
-> API_HASH - You're api hash, from my.telegram.org
+> `API_HASH` - You're api hash, from my.telegram.org
 
-> APP_ID - You're api id, from my.telegram.org
+> `APP_ID` - You're api id, from my.telegram.org
 
-> BOT_TOKEN - Get bot token from [@BotFather](https://t.me/BotFather)
+> `BOT_TOKEN` - Get bot token from [@BotFather](https://t.me/BotFather)
 
-> LOG_CHANNEL - log Channel id
+> `LOG_CHANNEL` - log Channel id
 
-> OWNER_ID - You're telegram id
+> `OWNER_ID` - You're telegram id
 
 ### Deploy To Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
