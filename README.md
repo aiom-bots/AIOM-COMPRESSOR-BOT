@@ -10,7 +10,7 @@
 - For now i set it for maximum 5 Processes at a time.
 - Its Running Without Db so Block /ban /Broadcast Feature is currently Not available.
 
-## > Variables
+## Variables
 
 > `API_HASH` - You're api hash, from my.telegram.org
 
