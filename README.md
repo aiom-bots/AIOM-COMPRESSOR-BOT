@@ -12,9 +12,9 @@
 
 ## Variables
 
-> `API_HASH` - You're api hash, from my.telegram.org
+> `API_HASH` - You're api hash, from [my.telegram.org](https://www.my.telegram.org)
 
-> `APP_ID` - You're api id, from my.telegram.org
+> `APP_ID` - You're api id, from [my.telegram.org](https://www.my.telegram.org)
 
 > `BOT_TOKEN` - Get bot token from [@BotFather](https://t.me/BotFather)
 
